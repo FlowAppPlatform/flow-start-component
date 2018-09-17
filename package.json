@@ -1,0 +1,19 @@
+{
+  "name": "flow-start-component",
+  "version": "1.0.0",
+  "description": "Start Component for Flow",
+  "main": "Start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlowAppPlatform/flow-start-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlowAppPlatform/flow-start-component/issues"
+  },
+  "homepage": "https://github.com/FlowAppPlatform/flow-start-component#readme"
+}
