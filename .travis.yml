@@ -10,13 +10,6 @@ node_js:
 - '7.4'
 before_install:
 - npm install webpack -g
-install:
-- npm install
-- npm install -g istanbul # For test coverage. 
-- npm install -g codecov # For test coverage. 
-script:
-- npm test # Run tests 
-- codecov #Run code coverage. 
 after_success:
   # publish to npm
   - npm cache clean
@@ -27,12 +20,11 @@ after_success:
   - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
   - sleep 10s
 deploy:
-   provider: script
-   skip_cleanup: true
-   script: npm publish
-   on:
-     branch: release
-     tags: false
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
+  on:
+    branch: release
 #Notify Team on Slack
 notifications:
   slack: hackerbaycompany:gm7nWJDLDtBRyF75VKLKOoMW
