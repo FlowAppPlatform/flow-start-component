@@ -21,3 +21,6 @@ deploy:
   on:
     branch: release
     tags: false
+#Notify Team on Slack
+notifications:
+  slack: hackerbaycompany:gm7nWJDLDtBRyF75VKLKOoMW
