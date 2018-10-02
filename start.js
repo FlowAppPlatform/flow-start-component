@@ -5,7 +5,7 @@ class Start extends Flow.Component {
     
     super()
     this.name = 'Start';
-    this.id = 'start';
+    this.id = 'flow-start-component';
     
     var port = new Flow.Port('Start');
     this.addPort(port);
