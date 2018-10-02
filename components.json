@@ -4,7 +4,7 @@
     "title": "Start Component",
     "imgSrc": "assets/icons/start.svg",
     "type": "flow-graph-component",
-    "file": "src/start.js",
+    "file": "start.js",
     "metadata": {
       "icon-color": "#7ab260"
     },
