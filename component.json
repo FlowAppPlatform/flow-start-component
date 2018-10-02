@@ -1,0 +1,20 @@
+{
+    "ports": [
+      {
+        "id": "start",
+        "title": "Start",
+        "description": "Simple description",
+        "color": "blue"
+      }
+    ],
+    "graphComponentId": "start",
+    "imgSrc": "./move-to-next-new.svg",
+    "title": "Start",
+    "category": "Start",
+    "type": "graphComponent",
+    "showOnComponentsPanel": false,
+    "isDeletable": false,
+    "metadata": {
+      "icon-color": "#6CC25F"
+    }
+}
