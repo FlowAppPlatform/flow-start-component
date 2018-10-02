@@ -2,7 +2,7 @@
   "name": "flow-start-component",
   "version": "1.0.0",
   "description": "Start Component for Flow",
-  "main": "Start.js",
+  "main": "start.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
