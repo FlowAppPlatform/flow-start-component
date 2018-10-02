@@ -1,0 +1,22 @@
+{
+  "flow-start-component": {
+    "componentId": "flow-start-component",
+    "title": "Start Component",
+    "imgSrc": "assets/icons/start.svg",
+    "type": "flow-graph-component",
+    "file": "src/start.js",
+    "metadata": {
+      "icon-color": "#7ab260"
+    },
+    "ports": [
+      {
+        "id": "start",
+        "title": "Start",
+        "description": "The Start port of this component"
+      }
+    ],
+    "properties": [],
+    "showOnComponentsPanel": false,
+    "isDeletable": false
+  }
+}
