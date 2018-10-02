@@ -6,17 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "flow-platform-sdk": "^2.0.94"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FlowAppPlatform/flow-start-component.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Hackerbay Inc. <hello@hackerbay.io>",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/FlowAppPlatform/flow-start-component/issues"
   },
-  "homepage": "https://github.com/FlowAppPlatform/flow-start-component#readme",
-  "dependencies": {
-    "flow-platform-sdk": "^2.0.94"
-  }
+  "homepage": "https://github.com/FlowAppPlatform/flow-start-component#readme"
 }
