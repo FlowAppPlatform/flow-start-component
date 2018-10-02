@@ -2,6 +2,7 @@
   "flow-start-component": {
     "componentId": "flow-start-component",
     "title": "Start Component",
+    "description": "Start component of the graph.",
     "imgSrc": "assets/icons/start.svg",
     "type": "flow-graph-component",
     "file": "start.js",
