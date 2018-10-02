@@ -12,7 +12,7 @@
       {
         "id": "start",
         "title": "Start",
-        "description": "The Start port of this component"
+        "description": "The port of the Start component"
       }
     ],
     "properties": [],
