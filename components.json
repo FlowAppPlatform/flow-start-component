@@ -13,7 +13,7 @@
       {
         "id": "start",
         "title": "Start",
-        "description": "The port of the Start component"
+        "description": "Start"
       }
     ],
     "properties": [],
