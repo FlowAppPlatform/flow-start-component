@@ -6,6 +6,7 @@
     "imgSrc": "assets/icons/start.svg",
     "type": "flow-graph-component",
     "file": "start.js",
+    "executionPlatform": ["server", "client"],
     "metadata": {
       "icon-color": "#2B5B08"
     },
