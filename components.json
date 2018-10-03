@@ -2,17 +2,19 @@
   "flow-start-component": {
     "componentId": "flow-start-component",
     "title": "Start Component",
+    "description": "Start component of the graph.",
     "imgSrc": "assets/icons/start.svg",
     "type": "flow-graph-component",
     "file": "start.js",
     "metadata": {
-      "icon-color": "#7ab260"
+      "icon-color": "#2B5B08"
     },
     "ports": [
       {
         "id": "start",
         "title": "Start",
-        "description": "The port of the Start component"
+        "description": "Start",
+        "color": "#2B5B08"
       }
     ],
     "properties": [],

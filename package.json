@@ -2,16 +2,19 @@
   "name": "flow-start-component",
   "version": "1.0.0",
   "description": "Start Component for Flow",
-  "main": "Start.js",
+  "main": "start.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "flow-platform-sdk": "^2.0.94"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FlowAppPlatform/flow-start-component.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Hackerbay Inc. <hello@hackerbay.io>",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/FlowAppPlatform/flow-start-component/issues"
   },
