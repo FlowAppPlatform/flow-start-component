@@ -1,5 +1,5 @@
 # Flow Start component
-The component is intended to run at the start of each graph and is designed to work with the Flow SDK.  It is available as an npm package.
+The component is intended to run at the start of each graph and is designed to work with the Flow SDK. It is available on the npm registry.
 
 *To use the component, install the package in your NodeJS project*
 
@@ -19,7 +19,7 @@ const component = new Component();
 
 *Listen in for the Start port emit event*
 ```javascript
-component.getPort('Sent').onEmit(function(){
+component.getPort('Start').onEmit(function(){
   // task done successfully
 });
 
