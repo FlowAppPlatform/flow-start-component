@@ -12,10 +12,11 @@
     },
     "ports": [
       {
-        "id": "start",
+        "id": "Start",
         "title": "Start",
         "description": "Start",
-        "color": "#2B5B08"
+        "color": "#2B5B08",
+        "properties": []
       }
     ],
     "properties": [],
