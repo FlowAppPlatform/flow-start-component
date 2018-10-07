@@ -13,6 +13,7 @@ class Start extends Flow.Component {
     // emit port here
     this.attachTask(function () {
       this.getPort('Start').emit();
+      this.taskComplete();
     });
 
   }
