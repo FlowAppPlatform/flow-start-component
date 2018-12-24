@@ -20,7 +20,7 @@ const component = new Component();
 *Listen in for the Start port emit event*
 ```javascript
 component.getPort('Start').onEmit(function(){
-  // task done successfully
+  // component ran successfully
 });
 ```
 
