@@ -1,11 +1,10 @@
-import Flow from 'flow-platform-sdk';
+const Flow = require('flow-platform-sdk');
 
 class Start extends Flow.Component {
   constructor() {
     
     super()
     this.name = 'Start';
-    this.id = 'flow-start-component';
     
     var port = new Flow.Port('Start');
     this.addPort(port);
