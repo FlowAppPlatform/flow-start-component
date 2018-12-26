@@ -1,10 +1,10 @@
 # Flow Start component
-The component is intended to run at the start of each graph and is designed to work with the Flow SDK. It is available on the npm registry.
+The component is designed to work with the Flow SDK and runs at the start of each graph.
 
 *To use the component, install the package in your NodeJS project*
 
 ```
-npm install flow-start-component --save
+npm i flow-start-component --save
 ```
 
 *Use the component as below*
@@ -20,13 +20,19 @@ const component = new Component();
 *Listen in for the Start port emit event*
 ```javascript
 component.getPort('Start').onEmit(function(){
-  // task done successfully
+  // component ran successfully
 });
+```
 
-// execute the component
+*Execute the component*
+```javascript
+// add the component to a graph before executing it
+const Graph = require('flow-platform-sdk').Graph;
+new Graph("graph-1").addComponent(component);
+
 component.execute();
 ```
 
 #### Conclusion
 
-That's all required to run the Flow Start component.
+That's the Flow Start component.
