@@ -1,6 +1,5 @@
 {
   "name": "flow-start-component",
-  "version": "1.0.0",
   "description": "Start Component for Flow",
   "main": "start.js",
   "scripts": {
