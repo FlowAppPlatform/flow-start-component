@@ -1,9 +1,9 @@
 const Flow = require('flow-platform-sdk');
 
 class Start extends Flow.Component {
-  constructor() {
+  constructor(id = null) {
     
-    super()
+    super(id)
     this.name = 'Start';
     
     var port = new Flow.Port('Start');

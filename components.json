@@ -1,10 +1,10 @@
 {
   "flow-start-component": {
-    "componentId": "flow-start-component",
+    "graphComponentId": "flow-start-component",
     "title": "Start Component",
-    "description": "Start component of the graph.",
-    "imgSrc": "assets/icons/start.svg",
-    "type": "flow-graph-component",
+    "description": "Start component of the graph",
+    "imgSrc": "assets/images/icons/start.svg",
+    "type": "graphComponent",
     "file": "start.js",
     "executionPlatform": ["server", "client"],
     "metadata": {
