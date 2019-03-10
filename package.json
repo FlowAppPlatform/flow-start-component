@@ -17,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/FlowAppPlatform/flow-start-component/issues"
   },
-  "homepage": "https://github.com/FlowAppPlatform/flow-start-component#readme"
+  "homepage": "https://github.com/FlowAppPlatform/flow-start-component#readme",
+  "version": "0.4.3"
 }
